@@ -1,0 +1,87 @@
+@media only screen and (max-width: 950px) {
+  .txt {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+@media only screen and (max-width: 803px) {
+  header {
+    overflow-x: hidden;
+  }
+  .nav {
+    display: none;
+  }
+  .logo {
+    width: 177px;
+    margin-left: 38px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 160%;
+    color: #30fbef;
+  }
+  .r-nav {
+    display: block;
+  }
+  .link{
+      display: none;
+  }
+  .links ul{
+    height: 220px;
+    transition: all 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+  }
+  .links ul button {
+    background: #282828;
+    box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+      -3px -3px 8px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    letter-spacing: 0.005em;
+    color: #30fbef;
+    border-top: white;
+    border-left: white;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+  }
+  .svg{
+      display: block;
+  }
+  .svgburg {
+    filter: invert(100);
+    position: absolute;
+    right: -450px;
+    top: 3%;
+  }
+  .path1, .path2{
+    stroke-dasharray: 104;
+    stroke-dashoffset: -71;
+    transition: 1s all ease;
+ }
+ .cross{
+   stroke-dashoffset: 68;
+ }
+ .mline{
+   stroke-dasharray: 41;
+   stroke-dashoffset: -82;
+   transition: 1s all ease;
+ }
+ .hide{
+   stroke-dasharray: 43;
+   stroke-dashoffset: 130;
+ }
+ @media only screen and (max-width: 550px) {
+  .svgburg {
+    filter: invert(100);
+    position: absolute;
+    right: -650px;
+    top: 3%;
+  }
+
+ }
+}
+}
