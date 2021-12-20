@@ -359,7 +359,73 @@ html {
   font-size: 12px;
   color: #ffffff;
 }
+hr{
+  border-top: 1px solid #3a3a3ae1 ;
+  height: 3px;
+  border-bottom: none;
+}
+footer .sub1 {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+footer .search1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search1 button {
+  margin-top: 20px;
+  color: white;
+  border-top: #ffffff;
+  border-left: #ffffff;
+  padding: 15px 50px;
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+.search1 .btn {
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #30fbef;
+  padding: 17px 29px;
+  border-top: white;
+  border-left: white;
+  margin-left: 15px;
+}
+.search1 .btn span{
+  margin-left: 10px;
+  color: #9c69e2;
+
+}
+.con1 h2 {
+  font-family: Now;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  color: #30fbef;
+  letter-spacing: 1px;
+}
+.con1 span {
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
 footer img {
+  margin: auto;
   object-fit: contain;
-  width: 100%;
+  width: 1000px;
 }
