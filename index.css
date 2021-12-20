@@ -323,11 +323,13 @@ html {
   height: 50px;
   margin-top: 20px;
 }
-.search input {
+ .search input{
+   color: white;
   margin: 20px;
   width: 250px;
-  background: none;
+  background: transparent;
   border: none;
+  outline: none;
 }
 .search button {
   margin: 20px;
