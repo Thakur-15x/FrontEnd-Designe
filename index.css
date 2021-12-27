@@ -28,7 +28,7 @@ html {
 }
 .logo img {
   object-fit: contain;
-  width: 40px;
+  width: 45px;
 }
 .links ul {
   display: flex;
@@ -200,6 +200,7 @@ html {
   font-size: 16px;
   line-height: 160%;
   color: #ffffff;
+  height: 180px;
 }
 .card button {
   background: none;
@@ -424,11 +425,11 @@ footer .search1 {
   color: #ffffff;
   letter-spacing: 0.5px;
 }
-.img0{
+/* .img0{
   margin: auto;
   width: 1100px;
 }
 .img0 img {
   object-fit: contain;
   width: 1100px;
-}
+} */
